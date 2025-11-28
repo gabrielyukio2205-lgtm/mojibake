@@ -2,9 +2,7 @@
     'use strict';
 
     // URL da sua API no Render (Mantenha a que estava funcionando)
-    // Para dev local use: const API_URL = 'http://localhost:7860/chat';
-    // Para produção relativa use: const API_URL = '/chat';
-    const API_URL = '/chat';
+    const API_URL = 'https://jade-proxy.onrender.com/chat';
 
     // State Management
     let conversations = [];
